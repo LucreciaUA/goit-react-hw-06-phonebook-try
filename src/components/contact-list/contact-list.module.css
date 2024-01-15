@@ -1,0 +1,33 @@
+li {
+    font-family: 'Allura', cursive;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+ul{
+    padding-left: 0;
+}
+
+.delete {
+    background-color: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    font-size: 40px;
+    padding-bottom: 7px;
+    border: none;
+    border-radius: 50%;
+}
+
+.delete:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 5px #f93737;
+}
